@@ -4,8 +4,6 @@ This repository contains my Round-0 assignment for the Primetrade.ai Data Scienc
 
 ## Files
 - `assignment.ipynb` - main notebook (Part A, B, C + bonus sections)
-- `analyze_trader_sentiment.py` - core analysis script
-- `bonus_modeling_clustering.py` - predictive model + trader clustering
 - `app.py` - Streamlit dashboard
 - `fear_greed_index (1).csv` - sentiment dataset
 - `historical_data (2).csv` - Hyperliquid trade dataset
@@ -19,10 +17,8 @@ Install dependencies:
 `pip install pandas numpy matplotlib seaborn scikit-learn streamlit`
 
 ## How to run
-### 1) Core assignment (Part A, B, C)
-Run either of these:
-- `python analyze_trader_sentiment.py`
-- open `assignment.ipynb` and run all cells
+### 1) Core assignment (Part A, B, C + bonus sections)
+Open `assignment.ipynb` and run all cells.
 
 This step creates:
 - cleaned/aligned daily dataset
@@ -30,17 +26,7 @@ This step creates:
 - segment-level analysis
 - charts and written summary
 
-### 2) Bonus: prediction + clustering
-Run:
-
-`python bonus_modeling_clustering.py`
-
-This creates:
-- `output/tables/next_day_profitability_predictions.csv`
-- `output/tables/trader_archetypes_clusters.csv`
-- `output/bonus_model_report.txt`
-
-### 3) Bonus: dashboard
+### 2) Streamlit dashboard
 Run:
 
 `streamlit run app.py`
