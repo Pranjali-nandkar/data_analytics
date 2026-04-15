@@ -1,0 +1,12 @@
+Train rows: 1855
+Test rows: 453
+Accuracy: 0.6115
+Classification report:
+                precision    recall  f1-score   support
+
+Non-Profitable       0.45      0.25      0.32       167
+    Profitable       0.65      0.83      0.73       286
+
+      accuracy                           0.61       453
+     macro avg       0.55      0.54      0.52       453
+  weighted avg       0.58      0.61      0.58       453
